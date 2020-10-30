@@ -1,0 +1,48 @@
+/*brincando com os logos*/
+#teste {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 200px;
+    width: 1000px;
+}
+
+#bk-png {
+    max-width:200px;
+    max-height:200px;
+    margin-left: 100px; 
+}
+
+#kfc-png {
+    max-width:200px;
+    max-height:200px;
+    margin-left: 100px;    
+}
+
+#mc-png {
+    max-width:140px;
+    max-height:200px;
+    margin-left: 100px;   
+}
+
+/*Organiza o fieldset*/
+fieldset#nome label {    
+    display: block;
+    width: 10%;
+    float:left;
+}
+
+#login {
+    margin-left:500px;
+    display: inline-block;
+}
+
+/*Botão de login*/
+
+#login-button {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#login-button:hover{
+    background-color: lightblue;
+}

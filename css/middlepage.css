@@ -28,29 +28,29 @@
 
 .img-hamb {
     margin-top: 10%;
-    max-width:700px;
+    max-width:300px;
     max-height:600px;
     width: auto;
     height: auto;
 }
 
 .img-jap {
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 10%;
-    max-width:406px;
+    max-width:300px;
     max-height:232px;
 }
 
 .img-sor {
     margin-top: 10%;
-    max-width:406px;
+    max-width:200px;
     max-height:232px;
 }
 
 .images-index {
-    margin-left: 100px;
-    margin-right: 100px;
-    width: auto;
-    height: auto;
+    padding-top: 100px;
+    padding-left: 245px;
 }
 
 /*Referente ao logo*/
@@ -73,29 +73,6 @@
     padding-left: 25px;
 }
 
-
-/*brincando com os logos*/
-#teste {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-}
-
-#bk-png {
-    max-width:200px;
-    max-height:200px;
-    margin-left: 100px;    
-}
-
-#mc-png {
-    max-width:200px;
-    max-height:120px;
-    margin-top: 40px;
-    margin-left: 130px;    
-}
-
-
-
 /*Interessante, serve pra poder centralizar!*/
 .centraliza {
     margin-left:auto;
@@ -117,15 +94,4 @@
     color: black;
 }
 
-/*Organiza o fieldset*/
-fieldset#nome label {    
-    display: block;
-    width: 10%;
-    float:left;
-}
-
-#login {
-    margin-left:500px;
-    display: inline-block;
-}
 
