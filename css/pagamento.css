@@ -11,7 +11,7 @@ p {
 #apresentar {
     margin-left: 0.5%;
     width: 39%;
-    height: 100%;
+    height: 130%;
     background-color: #00ac8d;
     float: left;
     text-align: -webkit-center;
@@ -48,11 +48,11 @@ p {
     height: 100%;
     background-color: whitesmoke;
     float: left;
-    text-align: -webkit-center;
+    text-align-last: start;
+    display: inline-block;
 }
 
 #alert-pagamento {
-    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
     color: white;
@@ -74,6 +74,7 @@ p {
 #cartoes {
     margin-right: 30%;    
     display: inline-block;
+    margin-left: 5%
 }
 
 #visa-cartao {
@@ -86,7 +87,7 @@ p {
 
 #visa-cartao:hover {
     background-color: lightgray;
-    cursor: grab;
+    cursor: pointer;
 }
 
 #mastercard-cartao {
@@ -99,7 +100,7 @@ p {
 
 #mastercard-cartao:hover {
     background-color: lightgray;
-    cursor: grab;
+    cursor: pointer;
 }
 
 
@@ -113,7 +114,7 @@ p {
 
 #nubank-cartao:hover {
     background-color: lightgray;
-    cursor: grab;
+    cursor: pointer;
 }
 
 #elo-cartao {
@@ -126,7 +127,7 @@ p {
 
 #elo-cartao:hover {
     background-color: lightgray;
-    cursor: grab;
+    cursor: pointer;
 }
 
 #aexpress-cartao {
@@ -139,8 +140,31 @@ p {
 
 #aexpress-cartao:hover {
     background-color: lightgray;
-    cursor: grab;
+    cursor: pointer;
 }
+
+#bigInput{
+    padding:8px;
+    border:1px solid #ccc;
+    width:400px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+#smallInput{
+    padding:8px;
+    border:1px solid #ccc;
+    width:200px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
 /*--------------------------------------------*/
 #titular {
     margin-left: 10%;
@@ -161,15 +185,13 @@ p {
 /*-----------------------------------------*/
 #validade {    
     margin-left: 10%;
-    float: left;
+    text-align: left;
 }
 
 /*----------------------------------------*/
 #cvv {
-    position: relative;
-    bottom: 5.6%;
     margin-left: 10%;
-    float: left;
+    text-align: left;
 }
 
 /*----------------------------------------*/
@@ -179,6 +201,13 @@ p {
     background-color: #00ac8d;
     color: white;
     box-shadow: 3px 3px 3px 3px lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    text-align-last: center;
+    width:440px;
+    height: 30px;
+    font-size: 20px;
 }
 
 #button-efetuar-pagamento:hover{

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/acompanha_pedido.css">
     <title>Acompanha_Pedido</title>
     <script>
-        let percent = document.getElemtnById('percentCount');
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }        
@@ -31,7 +30,9 @@
 
 <body>
     <object type="text/html" data="menu_horizontal.html" width="100%" height="14.7%"></object>
-    <label id="label-progress-bar" for="progress-bar">Sua pedido está a caminho!</label>
+    <div class='titulo'>
+        <label id="label-progress-bar" for="progress-bar">Seu pedido está a caminho!</label>
+    </div>
     <div class="acompanha-pedido">
         <progress id="progress" value="0" min="0" max="100"></progress>
     </div>

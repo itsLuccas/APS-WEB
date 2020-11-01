@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/pagamento.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APE ESSE ZERA</title>    
+    <title>Pagamento</title>    
 </head>
 <body>
-    <object type="text/html" data="menu_horizontal.html" width="100%" height="14.7%"></object>
+    <object type="text/html" data="menu_horizontal.html" width="100%"></object>
     <div id="apresentar">
         <img id="logo-apresentar" src="image/logoUam.JPG">
         <p id="titulo-apresentar">Seção de Pagamento</p>
@@ -32,31 +32,31 @@
 
         <p id="pagamento-topico">Titular</p>  
         <div id="titular">
-            <label class="label-pagamento-cor" for="nome-pagamento">Nome igual aparece impresso no cartão</label>
-            <input id="nome-pagamento" placeholder="Seu nome aqui..." size="100">
+            <label class="label-pagamento-cor" for="nome-pagamento">Nome igual aparece impresso no cartão</label><br>
+            <input id="bigInput" placeholder="Seu nome aqui..." size="100">
             <br><br>
-            <label class="label-pagamento-cor" for="cpf-pagamento">CPF do titular do cartão</label>
-            <input id="cpf-pagamento" placeholder="Insira seu cpf" size="100">
+            <label class="label-pagamento-cor" for="cpf-pagamento">CPF do titular do cartão</label><br>
+            <input id="bigInput" placeholder="Insira seu cpf" size="100">
         </div>   
 
         <p id="pagamento-topico">Número</p> 
         <div id="numero">
-            <label class="label-pagamento-cor" for="ncartao">De qualquer bandeira dentre as exibidas acima</label>
-            <input id="ncartao" placeholder="Digite o número do cartão!" size="100">
+            <label class="label-pagamento-cor" for="ncartao">De qualquer bandeira dentre as exibidas acima</label><br>
+            <input id="bigInput" placeholder="Digite o número do cartão!" size="100">
         </div>
 
-        <p id="pagamento-topico">Validade</p>         
+        <p id="pagamento-topico">Validade</p>
         <div id="validade">  
-            <input size="10" placeholder="Mês">
-            <input size="10" placeholder="Ano">
-        </div>
-        
-        <div id="cvv">  
-            <p id="pagamento-topico">Cód. CVV</p> 
-            <input size="20" placeholder="3 ou 4 dígitos (amex)">
+            <input id='smallInput' placeholder="Mês">
+            <input id='smallInput' placeholder="Ano">
         </div>
 
-        <div id="efetuar-pagamento"><button id="button-efetuar-pagamento">Efetuar Pagamento</button></div>
+        <p id="pagamento-topico">Cód. CVV</p> 
+        <div id="cvv">  
+            <input id='bigInput' placeholder="3 ou 4 dígitos (amex)">
+        </div>
+
+        <button id="button-efetuar-pagamento">Efetuar Pagamento</button>
 
     </div>
 </body>
