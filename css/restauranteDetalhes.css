@@ -9,6 +9,7 @@ body, html {
     background-image: url('../image/subway3.jpeg');
     background-repeat: no-repeat;
     float: left;
+    background-size: cover;
 }
 
 div.img{position: relative; width: 100%; height: 350px}
