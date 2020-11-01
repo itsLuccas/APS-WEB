@@ -13,7 +13,6 @@ p {
     width: 39%;
     height: 100%;
     background-color: #00ac8d;
-    display: inline-block;
     float: left;
     text-align: -webkit-center;
     border-radius: 15px;
@@ -48,7 +47,6 @@ p {
     width: 60%;
     height: 100%;
     background-color: whitesmoke;
-    display: inline-block;
     float: left;
     text-align: -webkit-center;
 }
