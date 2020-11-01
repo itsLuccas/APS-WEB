@@ -1,0 +1,85 @@
+.header {
+    background-color:#00ac8d;
+    height: 100px;
+    display: flex;
+}
+
+.input-busca {
+    border-radius: 20px 20px 20px 20px; 
+    padding: 5px;
+    width: 300px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 30px;
+}
+
+
+.input-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+#navbarNavDropdown {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.slide {
+    width: 1200px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.famosos {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.card {
+    margin-top: 10px;
+    
+}
+.card :hover{
+    background-color: lightgrey;
+}
+
+.restaurante {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 20px;
+}
+
