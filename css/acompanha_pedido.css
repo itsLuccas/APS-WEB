@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+}
+
+#label-progress-bar {
+    margin-left: 10%;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/*-------------------------------------------------*/
+.acompanha-pedido {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+#progress {
+    height: 75px;
+    width: 1000px;
+}
+
+/*-----------------------------------------------*/
+.prox {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-prox {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00ac8d;
+    color: white;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+#botao-prox:hover {
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    color: white;
+}
+
+
+
+
+  
+ 
