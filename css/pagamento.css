@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    background-color: whitesmoke;
 }
 
 p {
@@ -8,12 +9,14 @@ p {
 }
 
 #apresentar {
-    width: 40%;
+    margin-left: 0.5%;
+    width: 39%;
     height: 100%;
     background-color: #00ac8d;
     display: inline-block;
     float: left;
     text-align: -webkit-center;
+    border-radius: 15px;
 }
 
 #logo-apresentar {
