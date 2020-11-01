@@ -9,6 +9,7 @@ body, html {
     background-image: url('../image/subway3.jpeg');
     background-repeat: no-repeat;
     float: left;
+    background-size: cover;
 }
 
 /*---------------------------------------*/
