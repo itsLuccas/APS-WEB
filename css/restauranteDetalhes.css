@@ -68,15 +68,7 @@ body, html {
     text-align: -webkit-center;
 }
 
-.promo {
-    margin-left: 6%;
-    width: 25%;
-    height: 35%;
-    border: thin solid grey;
-    float: left;
-}
-
-.promo :hover {
+#promo :hover {
     cursor: grab;
 }
 
