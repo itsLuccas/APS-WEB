@@ -1,0 +1,188 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    line-height: 1;
+}
+
+#apresentar {
+    width: 40%;
+    height: 100%;
+    background-color: #00ac8d;
+    display: inline-block;
+    float: left;
+    text-align: -webkit-center;
+}
+
+#logo-apresentar {
+    max-height: 300px;
+    max-width: 1500px;
+    height: auto;
+    width: auto;
+    margin-top: 30%;    
+}
+
+#titulo-apresentar {
+    padding-top: 5%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#informacao-apresentar {
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    color: lightgrey;
+}
+
+/*------------------------------------*/
+#pagamento {
+    width: 60%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: inline-block;
+    float: left;
+    text-align: -webkit-center;
+}
+
+#alert-pagamento {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    border: thin solid cyan;
+    background-color: #00ac8d;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+#pagamento-topico {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+/*------------------------------------*/
+#cartoes {
+    margin-right: 30%;    
+    display: inline-block;
+}
+
+#visa-cartao {
+    max-width: 300px;
+    max-height: 50px;
+    height: auto;
+    width: auto;
+    border: thin solid lightgray;
+}
+
+#visa-cartao:hover {
+    background-color: lightgray;
+    cursor: grab;
+}
+
+#mastercard-cartao {
+    max-width: 300px;
+    max-height: 42px;
+    height: auto;
+    width: auto;
+    border: thin solid lightgray;
+}
+
+#mastercard-cartao:hover {
+    background-color: lightgray;
+    cursor: grab;
+}
+
+
+#nubank-cartao {
+    max-width: 300px;
+    max-height: 40px;
+    height: auto;
+    width: auto;
+    border: thin solid lightgray;
+}
+
+#nubank-cartao:hover {
+    background-color: lightgray;
+    cursor: grab;
+}
+
+#elo-cartao {
+    max-width: 300px;
+    max-height: 40px;
+    height: auto;
+    width: auto;
+    border: thin solid lightgray;
+}
+
+#elo-cartao:hover {
+    background-color: lightgray;
+    cursor: grab;
+}
+
+#aexpress-cartao {
+    max-width: 300px;
+    max-height: 60px;
+    height: auto;
+    width: auto;
+    border: thin solid lightgray;
+}
+
+#aexpress-cartao:hover {
+    background-color: lightgray;
+    cursor: grab;
+}
+/*--------------------------------------------*/
+#titular {
+    margin-left: 10%;
+    text-align: left;
+}
+
+.label-pagamento-cor {
+    color: gray;
+    font-size: small;
+}
+
+/*------------------------------------------*/
+#numero {
+    margin-left: 10%;
+    text-align: left;
+}
+
+/*-----------------------------------------*/
+#validade {    
+    margin-left: 10%;
+    float: left;
+}
+
+/*----------------------------------------*/
+#cvv {
+    position: relative;
+    bottom: 5.6%;
+    margin-left: 10%;
+    float: left;
+}
+
+/*----------------------------------------*/
+#button-efetuar-pagamento {
+    border-radius: 5px;
+    border: none;
+    background-color: #00ac8d;
+    color: white;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+#button-efetuar-pagamento:hover{
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    color: white;
+}
