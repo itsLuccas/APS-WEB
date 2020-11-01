@@ -11,7 +11,7 @@ p {
 #apresentar {
     margin-left: 0.5%;
     width: 39%;
-    height: 130%;
+    height: 100%;
     background-color: #00ac8d;
     float: left;
     text-align: -webkit-center;
@@ -49,7 +49,6 @@ p {
     background-color: whitesmoke;
     float: left;
     text-align-last: start;
-    display: inline-block;
 }
 
 #alert-pagamento {
