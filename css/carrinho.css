@@ -1,0 +1,110 @@
+body{
+    background-color: whitesmoke;
+    text-align: -webkit-center;
+}
+
+.div_carrinho{
+    background-color: white;
+    margin: '0px';
+    width: 90%;
+}
+
+.titulo_carrinho{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 20px
+}
+
+td{
+    padding:20px;
+}
+
+table {
+    border-bottom: 1px solid lightgray;
+}
+
+.carrinho_imagem{
+    max-height: 200px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.carrinho_nome{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.carrinho_quantidade{
+    padding:8px;
+    display:block;
+    border:none;
+    border:1px solid #ccc;
+    width:50%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  opacity: 1;
+}
+
+.carrinho_preco{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.carrinho_lixo{
+    max-height: 25px;
+    max-width: 37px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.carrinho_total{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.carrinho_botao_pagamento{
+    background-color: #00ac8d;
+    text-align: center;
+    width:250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: 0px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.carrinho_botao_pagamento:hover{
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+
