@@ -19,7 +19,6 @@ body {
     height: 30px;
 }
 
-
 .input-icon {
     margin-left: auto;
     margin-right: auto;
@@ -76,6 +75,7 @@ body {
 }
 .card :hover{
     background-color: lightgrey;
+    cursor: pointer;
 }
 
 .restaurante {
