@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <!-- Meta tags Obrigatórias -->
+  <!-- Meta tags Obrigatórias -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/menu_horizontal.css">
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -13,26 +17,45 @@
   <link rel="stylesheet" href="css/avalia.css">
   <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/fontawesome.min.css">
   <script src="fontawesome-free-5.15.1-web/js/all.min.js"></script>
-
 </head>
-<body style="background-color: whitesmoke">
-   <object type="text/html" data="menu_horizontal.html" width="100%"></object>
-   <div id="painel-imagem"></div>
 
-   <div class="card" style="width: 50rem;">
+<body style="background-color: whitesmoke">
+  <div class="menu_horizontal">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 float-left">
+                <img id="logo-login" src="image/logoUam.JPG" onclick="window.location='tela_principal.html'">
+            </div>
+            <div class="col-4" style="text-align: center;">
+                <i class="fas fa-search" id="icone-busca"></i>
+                <input type="text" placeholder="Buscar pratos e restaurantes" class="input-busca">
+            </div>
+            <div class="col-4" style="text-align: end;">
+                <i class="fas fa-shopping-cart" id='icone-carrinho' onclick="window.location='carrinho.html'"></i>
+                <i class="fas fa-star" id='icone-estrela'></i>
+                <i class="fas fa-user-alt" id='icone-user' onclick="window.location='perfil_usuario.html';"></i>
+            </div>
+        </div>
+    </div>
+</div>
+  <div id="painel-imagem"></div>
+
+  <div class="card" style="width: 50rem;">
     <h5 class="card-title">Avalie o seu pedido</h5>
     <img class="card-img-top" src="image/img-logo-subway.jpg" alt="Imagem de capa do card">
-    <div class="card-body"> 
+    <div class="card-body">
       <p class="card-star">
-          <i class="fas fa-star" id="star"></i>
-          <i class="fas fa-star" id="star"></i>
-          <i class="fas fa-star" id="star"></i>
-          <i class="far fa-star" id="star"></i>
-          <i class="far fa-star" id="star"></i>
+        <i class="fas fa-star" id="star"></i>
+        <i class="fas fa-star" id="star"></i>
+        <i class="fas fa-star" id="star"></i>
+        <i class="far fa-star" id="star"></i>
+        <i class="far fa-star" id="star"></i>
       </p>
-      <a href="#" class="btn btn-primary" id="btn">Enviar</a>
+      <a href="#" class="btn btn-primary" id="btn"
+        onclick="alert('Sua avaliação foi enviada! Obrigado!'); window.location='tela_principal.html'">Enviar</a>
     </div>
   </div>
-    
+
 </body>
+
 </html>

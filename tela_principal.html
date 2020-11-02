@@ -11,6 +11,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <title>Menu Principal</title>
+  <link rel="stylesheet" href="css/menu_horizontal.css">
   <link rel="stylesheet" href="css/tela_principal.css">
   <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/fontawesome.min.css">
   <script src="fontawesome-free-5.15.1-web/js/all.min.js"></script>
@@ -18,7 +19,24 @@
 
 <body style="background-color: whitesmoke;">
 
-  <object type="text/html" data="menu_horizontal.html" width="100%"  background-color="whitesmoke"></object>
+  <div class="menu_horizontal">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 float-left">
+          <img id="logo-login" src="image/logoUam.JPG" onclick="window.location='tela_principal.html'">
+        </div>
+        <div class="col-4" style="text-align: center;">
+          <i class="fas fa-search" id="icone-busca"></i>
+          <input type="text" placeholder="Buscar pratos e restaurantes" class="input-busca">
+        </div>
+        <div class="col-4" style="text-align: end;">
+          <i class="fas fa-shopping-cart" id='icone-carrinho' onclick="window.location='carrinho.html'"></i>
+          <i class="fas fa-star" id='icone-estrela'></i>
+          <i class="fas fa-user-alt" id='icone-user' onclick="window.location='perfil_usuario.html';"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="main-carousel">
     <ol class="carousel-indicators">
@@ -51,12 +69,12 @@
   <div class="card-deck famosos">
     <div class="card">
       <div class="card-body">
-        <img class="card-img logo"  src="image/img-logo-mcdonalds.jpg" alt="Imagem de capa do card" >   
-        <h5 class="card-title">Mc Donald's - Campus Vila Olímpia</h5>    
+        <img class="card-img logo" src="image/img-logo-mcdonalds.jpg" alt="Imagem de capa do card">
+        <h5 class="card-title">Mc Donald's - Campus Vila Olímpia</h5>
       </div>
     </div>
     <div class="card">
-      <div class="card-body">
+      <div class="card-body" onclick="window.location='restauranteDetalhes.html'">
         <img class="card-img-top logo" src="image/img-logo-subway.jpg" alt="Imagem de capa do card">
         <h5 class="card-title ">Subway - Campus Vila Olímpia</h5>
       </div>
@@ -70,29 +88,36 @@
   </div>
 
 
-  <p style="margin-left: 30px; margin-top: 40px; font-weight: bold; font-size: 26px; margin-bottom: 10px;">Restaurantes</p>
-  
+  <p style="margin-left: 30px; margin-top: 40px; font-weight: bold; font-size: 26px; margin-bottom: 10px;">Restaurantes
+  </p>
+
   <div class="restaurante">
     <div class="card">
       <div class="card-body">
         <table>
           <tr class="card-body">
-            <td style="width: 50px;"><img class="card-img-top logo" src="image/img-logo-subway.jpg" alt="Imagem de capa do card"></td>
-            <td  id="legenda"><h5 margin='0px'>Subway - Campus Vila Olímpia</h5>
-            <h7 margin='0px'>Tempo estimado: 30 - 40 min</h7></td> 
+            <td style="width: 50px;"><img class="card-img-top logo" src="image/img-logo-subway.jpg"
+                alt="Imagem de capa do card"></td>
+            <td id="legenda">
+              <h5 margin='0px'>Subway - Campus Vila Olímpia</h5>
+              <h7 margin='0px'>Tempo estimado: 30 - 40 min</h7>
+            </td>
             <td style="width: 4%;"><i class="fas fa-star" id="star"></i> 4,6</td>
           </tr>
         </table>
-      </div>   
+      </div>
     </div>
 
     <div class="card">
       <div class="card-body">
         <table>
           <tr class="card-body">
-            <td width='50px'><img class="card-img-top logo" src="image/img-logo-sushi.jpg" alt="Imagem de capa do card"></td>
-            <td><h5 margin='0px'>Nori Sushi - Campus Vila Olímpia</h5>
-            <h7 margin='0px'>Tempo estimado: 15 - 20 min</h7></td> 
+            <td width='50px'><img class="card-img-top logo" src="image/img-logo-sushi.jpg" alt="Imagem de capa do card">
+            </td>
+            <td>
+              <h5 margin='0px'>Nori Sushi - Campus Vila Olímpia</h5>
+              <h7 margin='0px'>Tempo estimado: 15 - 20 min</h7>
+            </td>
             <td style="width: 4%;"><i class="fas fa-star" id="star"></i> 4,2</td>
           </tr>
         </table>
@@ -103,9 +128,12 @@
       <div class="card-body">
         <table>
           <tr class="card-body">
-            <td width='50px'><img class="card-img-top logo" src="image/img-logo-starbucks.jpg" alt="Imagem de capa do card"></td>
-            <td><h5 margin='0px'>Starbucks - Campus Vila Olímpia</h5>
-            <h7 margin='0px'>Tempo estimado: 20 - 30 min</h7></td> 
+            <td width='50px'><img class="card-img-top logo" src="image/img-logo-starbucks.jpg"
+                alt="Imagem de capa do card"></td>
+            <td>
+              <h5 margin='0px'>Starbucks - Campus Vila Olímpia</h5>
+              <h7 margin='0px'>Tempo estimado: 20 - 30 min</h7>
+            </td>
             <td style="width: 4%;"><i class="fas fa-star" id="star"></i> 4,8</td>
           </tr>
         </table>
@@ -116,9 +144,12 @@
       <div class="card-body">
         <table>
           <tr class="card-body">
-            <td width='50px'><img class="card-img-top logo" src="image/img-logo-pizzahut.jpg" alt="Imagem de capa do card"></td>
-            <td><h5 margin='0px'>Pizza Hut - Campus Vila Olímpia</h5>
-            <h7 margin='0px'>Tempo estimado: 20 - 30 min</h7></td> 
+            <td width='50px'><img class="card-img-top logo" src="image/img-logo-pizzahut.jpg"
+                alt="Imagem de capa do card"></td>
+            <td>
+              <h5 margin='0px'>Pizza Hut - Campus Vila Olímpia</h5>
+              <h7 margin='0px'>Tempo estimado: 20 - 30 min</h7>
+            </td>
             <td style="width: 4%;"><i class="fas fa-star" id="star"></i> 4,7</td>
           </tr>
         </table>
