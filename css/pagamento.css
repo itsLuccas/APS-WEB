@@ -152,6 +152,7 @@ p {
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    text-align-last: start;
 }
 
 #smallInput{
@@ -163,6 +164,7 @@ p {
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    text-align-last: start;
 }
 
 /*--------------------------------------------*/
