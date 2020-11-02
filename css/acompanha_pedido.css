@@ -3,11 +3,11 @@ body {
 }
 
 #label-progress-bar {
-    margin-left: 10%;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
 .titulo{
     margin-top: 30px;
     background-color: white;
