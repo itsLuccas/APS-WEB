@@ -59,3 +59,29 @@ body{
     margin-left: 2%;
 
 }
+
+
+img:hover{
+    cursor: pointer;
+}
+
+
+#icone-busca :hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#icone-carrinho :hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#icone-estrela :hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#icone-user :hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
