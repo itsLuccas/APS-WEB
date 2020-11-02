@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
     <link rel="stylesheet" href="css/perfil_usuário.css">
-</head>   
+
+    <link rel="stylesheet" href="css/menu_horizontal.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/fontawesome.min.css">
+    <script src="fontawesome-free-5.15.1-web/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
 <body>
-    <object type="text/html" data="menu_horizontal.html" width="100%"></object>
+    <div class="menu_horizontal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 float-left">
+                    <img id="logo-login" src="image/logoUam.JPG" onclick="window.location='tela_principal.html'">
+                </div>
+                <div class="col-4" style="text-align: center;">
+                    <i class="fas fa-search" id="icone-busca"></i>
+                    <input type="text" placeholder="Buscar pratos e restaurantes" class="input-busca">
+                </div>
+                <div class="col-4" style="text-align: end;">
+                    <i class="fas fa-shopping-cart" id='icone-carrinho' onclick="window.location='carrinho.html'"></i>
+                    <i class="fas fa-star" id='icone-estrela'></i>
+                    <i class="fas fa-user-alt" id='icone-user' onclick="window.location='perfil_usuario.html';"></i>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class='div_perfil'>
         <label class="titulo_perfil">Editar dados</label>
         <form>
             <input type="text" id="name" placeholder="Maria das Cruzes" class='input_perfil'>
             <label for="name" class='label_perfil'>Nome</label>
-            
+
             <input type="text" id="ra" placeholder="12345678" class='input_perfil'>
             <label for="ra" class='label_perfil'>RA</label>
 
-            
+
             <input type="password" id="senha" placeholder="senha1234" class='input_perfil'>
             <label for="senha" class='label_perfil'>Senha</label>
 
-            <input type="submit" value="Salvar" class='button_perfil'>
+            <input value="Salvar" class='button_perfil' onclick="window.location='tela_principal.html'">
         </form>
     </div>
 </body>
+
 </html>
