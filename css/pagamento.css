@@ -12,7 +12,7 @@ p {
     margin-top: 30px;
     margin-left: 0.5%;
     width: 39%;
-    height: 100%;
+    height: 103%;
     background-color: #00ac8d;
     float: left;
     text-align: -webkit-center;
@@ -50,7 +50,7 @@ p {
     height: 100%;
     background-color: whitesmoke;
     float: left;
-    text-align-last: start;
+    text-align-last: center;
 }
 
 #alert-pagamento {
@@ -63,22 +63,21 @@ p {
     line-height: 1.5;
 }
 
-#pagamento-topico {
-    text-align: left;
-    margin-top: 5%;
-    margin-left: 5%;
+#pagamento-topico {    
+    text-align-last: left;
+    margin-left: 200px;
+    margin-top: 5%;    
     font-weight: bold;
     color: black;
 }
 
 /*------------------------------------*/
 #cartoes {
-    margin-right: 30%;    
-    display: inline-block;
-    margin-left: 5%
+    display: inline-block;    
 }
 
 #visa-cartao {
+    margin-left: 25px;
     max-width: 300px;
     max-height: 50px;
     height: auto;
@@ -144,7 +143,7 @@ p {
     cursor: pointer;
 }
 
-#bigInput{
+#bigInput{    
     padding:8px;
     border:1px solid #ccc;
     width:400px;
@@ -168,30 +167,27 @@ p {
 
 /*--------------------------------------------*/
 #titular {
-    margin-left: 10%;
     text-align: left;
 }
 
 .label-pagamento-cor {
+    margin-right: 245px;
     color: gray;
     font-size: small;
 }
 
 /*------------------------------------------*/
-#numero {
-    margin-left: 10%;
+#numero {    
     text-align: left;
 }
 
 /*-----------------------------------------*/
-#validade {    
-    margin-left: 10%;
+#validade {        
     text-align: left;
 }
 
 /*----------------------------------------*/
 #cvv {
-    margin-left: 10%;
     text-align: left;
 }
 
@@ -204,8 +200,6 @@ p {
     box-shadow: 3px 3px 3px 3px lightgray;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 5%;
-    text-align-last: center;
     width:440px;
     height: 30px;
     font-size: 20px;
