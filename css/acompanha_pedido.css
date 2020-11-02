@@ -1,6 +1,5 @@
 body {
     background-color: whitesmoke;
-    text-align: -webkit-center;
 }
 
 #label-progress-bar {
@@ -10,6 +9,7 @@ body {
     font-weight: bold;
 }
 .titulo{
+    margin-top: 30px;
     background-color: white;
     width: 90%;
     padding-top: 20px;
