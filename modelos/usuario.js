@@ -14,7 +14,7 @@ class Usuario {
             armazenar.executeSql("INSERT INTO users (nome, ra, senha) VALUES (?, ?, ?)", [nome, ra, senha]);
         });
         alert("Cadastro concluído com sucesso!");
-        setTimeout(() => {  window.location.replace("tela_principal.html"); }, 500);  
+        this.logar(); 
     }
 
     deletar() {
@@ -23,7 +23,7 @@ class Usuario {
             apagar.executeSql(`DELETE FROM users WHERE id = '${id}'`, []);
         });
         localStorage.clear();
-        setTimeout(() => {  window.location.replace("login.html"); }, 2000);    
+        setTimeout(() => {  window.location.replace("login.html"); }, 1000);    
     }
 
     atualizar() {
