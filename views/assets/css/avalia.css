@@ -58,10 +58,11 @@ body, html {
 }
 
 .btn-primary:hover{
-    background-color: lightgrey!important;
-    border-color: lightgrey!important;
+    background-color: lightgrey;
+    cursor: pointer;
 }
 
 #btn{
+    border: none;
     box-shadow: 3px 3px 3px 3px  lightgrey;
 }
