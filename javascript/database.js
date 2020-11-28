@@ -1,7 +1,7 @@
-var reinitDb;
-var db = openDatabase("banco", "2.0", "Mybase", 4048);
+var reinitDb = 0;
+var db = openDatabase("mybase", "1.0", "Mybase", 2 * 1024 * 1024);
 db.transaction(function(criar) {
-    criar.executeSql("CREATE TABLE users (id integer, nome TEXT, ra INTEGER PRIMARY KEY, senha TEXT)");
+    criar.executeSql("CREATE TABLE users (id PRIMARY KEY, nome TEXT, ra INTEGER, senha TEXT)");
 });
 
 if (reinitDb) {
