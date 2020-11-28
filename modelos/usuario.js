@@ -13,6 +13,8 @@ class Usuario {
         db.transaction(function(armazenar) {
             armazenar.executeSql("INSERT INTO users (nome, ra, senha) VALUES (?, ?, ?)", [nome, ra, senha]);
         });
+        alert("Cadastro concluído com sucesso!");
+        setTimeout(() => {  window.location.replace("tela_principal.html"); }, 500);  
     }
 
     deletar() {

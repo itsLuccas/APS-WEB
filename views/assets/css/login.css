@@ -51,6 +51,12 @@ body, html {
     border-color: whitesmoke;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    
+}
+
+#botao-login:hover{
+    background-color: lightgrey;
+    cursor: pointer;
 }
 
 /*----------------------------------------*/
@@ -132,4 +138,11 @@ body, html {
     background-color: #00ac8d;
     border: none;
     border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px lightgray;
 }
+
+#botao-cadastro:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
