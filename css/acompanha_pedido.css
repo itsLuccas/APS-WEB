@@ -17,12 +17,18 @@ body {
 
 /*-------------------------------------------------*/
 .acompanha-pedido {
+    margin-top: 80px;
     background-color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     width: 90%;
+}
+
+#porcento {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-top: 50px;
 }
 
 #progress {

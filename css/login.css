@@ -11,6 +11,11 @@ body, html {
     text-align: -webkit-center;
 }
 
+#form-login {
+    display: inline-grid;
+    grid-gap: 10px;
+}
+
 #logo-login {
     max-height: 300px;
     max-width: 1500px;
