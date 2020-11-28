@@ -58,7 +58,7 @@ class Usuario {
     }
 
     // LOGIN ------------------------------------------------------------------------------------------------
-    logar() {
+    logar() {        
         var nome = this.nome;
         var ra = this.ra;
         var senha = this.senha;        
