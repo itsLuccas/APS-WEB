@@ -8,27 +8,20 @@ body {
     font-weight: bold;
 }
 
-.titulo{
-    margin-top: 30px;
-    background-color: white;
-    width: 90%;
-    padding-top: 20px;
-}
-
 /*-------------------------------------------------*/
 .acompanha-pedido {
     margin-top: 80px;
     background-color: white;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: auto;
     width: 90%;
+    padding: 30px;
 }
 
 #porcento {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
 
 #progress {
@@ -36,6 +29,12 @@ body {
     width: 1000px;
 }
 
+#mensagem-entrega {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
 /*-----------------------------------------------*/
 .prox {
     background-color: white;
@@ -48,6 +47,7 @@ body {
 #botao-prox {
     width: 300px;
     height: 50px;
+    margin-top: 30px;
     border-radius: 5px;
     border: none;
     background-color: #00ac8d;
