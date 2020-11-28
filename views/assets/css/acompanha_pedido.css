@@ -56,9 +56,6 @@ body {
 }
 
 #botao-prox:hover {
-    border-radius: 5px;
-    border: none;
-    background-color: lightgray;
-    color: white;
+    background-color: lightgrey;
     cursor: pointer;
 }
