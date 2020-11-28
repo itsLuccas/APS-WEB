@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="css/menu_horizontal.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/fontawesome.min.css">
     <script src="fontawesome-free-5.15.1-web/js/all.min.js"></script>
+    <script src="javascript/controlador.js"></script>
+    <script src="javascript/usuario.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <script src="javascript/perfil_usuario.js"></script>
+    <script src="javascript/database.js"></script>   
+    <script src="jquery-3.5.1.min.js"></script> 
 </head>
 
 <body style="background-color: whitesmoke;">
@@ -27,27 +31,33 @@
                     <input type="text" placeholder="Buscar pratos e restaurantes" class="input-busca">
                 </div>
                 <div class="col-4" style="text-align: end;">
+                    <i class="fas fa-sign-out-alt" id='icone-log-out' onclick='logout()'></i>
                     <i class="fas fa-shopping-cart" id='icone-carrinho' onclick="window.location='carrinho.html'"></i>
                     <i class="fas fa-star" id='icone-estrela'></i>
-                    <i class="fas fa-user-alt" id='icone-user' onclick="window.location='perfil_usuario.html';"></i>
+                    <i class="fas fa-user-alt" id='icone-user' onclick="window.location='mostra_dados.html'"></i>
                 </div>
             </div>
         </div>
     </div>
     <div class='div_perfil'>
-        <label class="titulo_perfil">Editar dados</label>
+        
+        <p id='nome'></p>
+        <script>showElements()</script>
+        <label class="titulo_perfil">Editar dados</label>        
         <form>
-            <input type="text" id="name" placeholder="Maria das Cruzes" class='input_perfil'>
+            <input type="text" id="name" class='input_perfil'>
             <label for="name" class='label_perfil'>Nome</label>
 
-            <input type="text" id="ra" placeholder="12345678" class='input_perfil'>
+            <input type="text" id="ra" class='input_perfil'>
             <label for="ra" class='label_perfil'>RA</label>
 
 
-            <input type="password" id="senha" placeholder="senha1234" class='input_perfil'>
+            <input type="password" id="senha" class='input_perfil'>
             <label for="senha" class='label_perfil'>Senha</label>
 
-            <input value="Salvar" class='button_perfil' onclick="window.location='tela_principal.html'">
+            <input value="Salvar" class='button_perfil' onclick="atualizar()">
+            <br>
+            <input value="Deletar Conta" class='button_perfil' onclick="deletar()">
         </form>
     </div>
 </body>
