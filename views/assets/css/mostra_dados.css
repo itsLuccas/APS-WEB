@@ -1,0 +1,43 @@
+.div_perfil{
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+
+.titulo_perfil{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    display:block;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    width: 40%;
+}
+
+.propriedades_user{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: left;
+    width: 40%;
+}
+
+.button_perfil{
+    text-align: center;
+    background-color: #00ac8d;
+    width:40%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 50px;
+    border: 0px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+
+}

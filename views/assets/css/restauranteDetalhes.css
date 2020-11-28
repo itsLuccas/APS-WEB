@@ -1,0 +1,102 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#painel-imagem {
+	width:100%;
+    height:40%;
+    background-image: url('../image/subway3.jpeg');
+    background-repeat: no-repeat;
+    float: left;
+    background-size: cover;
+}
+
+div.img{position: relative; width: 100%; height: 350px}
+div.img > img{width:100%; height: 100%}
+div.img > div{
+    position: absolute; 
+    margin-left: 5%; 
+    top: 10%; 
+    margin-top: 5%; 
+    background-color: whitesmoke; 
+    width:50%; 
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 10px grey;
+}
+
+/*---------------------------------------*/
+#texto-informacao-painel-titulo {
+    padding-top: 2%;
+    padding-left: 10%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+#texto-informacao-painel {
+    padding-left: 10%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+/*----------------------------------------------------*/
+#vale-restaurante {
+    margin-top: 3%;
+    margin-left: 10%;
+    height: 8%;
+    width: 30%;
+    border: thin solid lightgray;
+    float: left;    
+}
+
+#vale-restaurante-texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2%;
+    font-size: medium;
+}
+
+#vale-restaurante-aceita {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5%;
+    font-size: small;
+}
+
+/*---------------------------------------------*/
+#promos {
+    margin-top: 4%;
+    height: 70%;
+    width: 100%;
+    float: left;
+    text-align: -webkit-center;
+}
+
+#promo:hover {
+    cursor: pointer;
+}
+
+#promo{
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+#promo-titulo {
+    padding-left: 15px;
+}
+
+#promo-desc {
+    text-align: justify;
+    padding: 0px;
+}
+
+#promo-img {
+    position: relative;
+    text-align: end;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
