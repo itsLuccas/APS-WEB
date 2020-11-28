@@ -1,8 +1,8 @@
 .div_perfil{
-    background-color: whitesmoke;
-    width: 100%;
-    text-align: -webkit-center;
+    background-color: white;
     margin-top: 30px;
+    width: 90%;
+    padding: 30px;
 }
 
 .titulo_perfil{
@@ -12,19 +12,38 @@
     display:block;
     margin-bottom: 30px;
     font-weight: bolder;
-    width: 40%;
+    width:auto;
+    text-align: left;
+}
+
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .propriedades_user{
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
-    display:block;
+    font-size: 22px;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: left;
-    width: 40%;
+    width: 10%;
+   
+}
+
+.dado_user{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 20%;
+    margin-left: 10px;
+    
 }
 
 .button_perfil{
@@ -39,5 +58,11 @@
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px lightgray;
 
+}
+
+.button_perfil:hover{
+    background-color: lightgrey;
+    cursor: pointer;
 }
