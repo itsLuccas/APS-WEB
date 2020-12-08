@@ -50,6 +50,28 @@ class Usuario {
             localStorage.setItem('nome', nome);
             localStorage.setItem('ra', ra);
             localStorage.setItem('senha', senha);
+        } else if(nome == "" && ra != "" && senha == "") {
+            db.transaction(function(atualiza) {
+                atualiza.executeSql(`UPDATE users SET ra = '${ra}' WHERE id = '${localStorage.getItem('id')}'`, []);
+            });
+            localStorage.setItem('ra', ra);
+        }  else if(nome == "" && ra == "" && senha != "") {
+            db.transaction(function(atualiza) {
+                atualiza.executeSql(`UPDATE users SET senha = '${senha}' WHERE id = '${localStorage.getItem('id')}'`, []);
+            });            
+            localStorage.setItem('senha', senha);
+        } else if(nome == "" && ra != "" && senha != "") {
+            db.transaction(function(atualiza) {
+                atualiza.executeSql(`UPDATE users SET senha = '${senha}', ra = '${ra}' WHERE id = '${localStorage.getItem('id')}'`, []);
+            });
+            localStorage.setItem('ra', ra);
+            localStorage.setItem('senha', senha);
+        } else if(nome != "" && ra == "" && senha != "") {
+            db.transaction(function(atualiza) {
+                atualiza.executeSql(`UPDATE users SET senha = '${senha}', nome = '${nome}' WHERE id = '${localStorage.getItem('id')}'`, []);
+            });
+            localStorage.setItem('nome', nome);
+            localStorage.setItem('senha', senha);
         }
     }
 
